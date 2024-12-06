@@ -2,6 +2,12 @@
 
 A box model driver for the Modal Aerosol Module (Liu et al., 2012; Liu et al., 2016). 
 
+Atmospheric aerosol particles play a crucial role in the climate system, influencing cloud formation, radiation balance, and atmospheric chemistry. The representation of aerosol microphysics in global aerosol models involves numerous physical and numerical assumptions as well as approximations, leading to significant discrepancies in the simulated aerosol physical properties and lifecycles among different models. Simplified models that isolate aerosol microphysics from resolved atmospheric dynamics and other parameterized processes (e.g., clouds and radiation) enable researchers to pinpoint the root causes of these discrepancies, which can be obscured in full global model comparisons.
+
+The Modal Aerosol Module (MAM) in the Energy Exascale Earth System Model (E3SM) provides a simplified yet comprehensive treatment of aerosol processes. Supported by the E3SM Software Modernization project, we have developed a new box model driver for the MAM aerosol microphysics calculations. This development also extends the functionality of the box model to facilitate comparisons of various aerosol microphysics treatments commonly used in global aerosol models, using either idealized or observation-constrained initial conditions and atmospheric states.
+
+The MAM aerosol box model driver offers a convenient tool for new aerosol modelers to learn and test different aerosol microphysics parameterizations. It is also well-suited to support aerosol microphysics model intercomparison studies and machine learning applications (such as training data generation) aimed at enhancing global aerosol models.
+
 
 ## Developers: 
 
