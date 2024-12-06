@@ -1,10 +1,8 @@
-# MAM_box_model
-
-A box model driver for the Modal Aerosol Module (Liu et al., 2012; Liu et al., 2016). 
+# The MAM aerosol microphysics box model
 
 Atmospheric aerosol particles play a crucial role in the climate system, influencing cloud formation, radiation balance, and atmospheric chemistry. The representation of aerosol microphysics in global aerosol models involves numerous physical and numerical assumptions as well as approximations, leading to significant discrepancies in the simulated aerosol physical properties and lifecycles among different models. Simplified models that isolate aerosol microphysics from resolved atmospheric dynamics and other parameterized processes (e.g., clouds and radiation) enable researchers to pinpoint the root causes of these discrepancies, which can be obscured in full global model comparisons.
 
-The Modal Aerosol Module (MAM) in the Energy Exascale Earth System Model (E3SM) provides a simplified yet comprehensive treatment of aerosol processes. Supported by the E3SM Software Modernization project, we have developed a new box model driver for the MAM aerosol microphysics calculations. This development also extends the functionality of the box model to facilitate comparisons of various aerosol microphysics treatments commonly used in global aerosol models, using either idealized or observation-constrained initial conditions and atmospheric states.
+The Modal Aerosol Module (MAM, Liu et al., 2012; Liu et al., 2016) in the Energy Exascale Earth System Model (E3SM) provides a simplified yet comprehensive treatment of aerosol processes. Supported by the E3SM Software Modernization project, we have developed a new box model driver for the MAM aerosol microphysics calculations. This development also extends the functionality of the box model to facilitate comparisons of various aerosol microphysics treatments commonly used in global aerosol models, using either idealized or observation-constrained initial conditions and atmospheric states.
 
 The MAM aerosol box model driver offers a convenient tool for new aerosol modelers to learn and test different aerosol microphysics parameterizations. It is also well-suited to support aerosol microphysics model intercomparison studies and machine learning applications (such as training data generation) aimed at enhancing global aerosol models.
 
@@ -67,7 +65,7 @@ Kai Zhang (kai.zhang@pnnl.gov)
 - Liu, X., Ma, P.-L., Wang, H., Tilmes, S., Singh, B., Easter, R. C., Ghan, S. J., and Rasch, P. J.: Description and evaluation of a new four-mode version of the Modal Aerosol Module (MAM4) within version 5.3 of the Community Atmosphere Model, Geosci. Model Dev., 9, 505–522, https://doi.org/10.5194/gmd-9-505-2016, 2016.  
 - Easter, R. C., S. J. Ghan, Y. Zhang, R. D. Saylor, E. G. Chapman, N. S. Laulainen, H. Abdul-Razzak, L. R. Leung, X. Bian, and R. A. Zaveri (2004), MIRAGE: Model description and evaluation of aerosols and trace gases, J. Geophys. Res., 109, D20210, https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2004JD004571, doi:10.1029/2004JD004571.
 
-# Acknowlegment 
+## Acknowlegment 
 
 
 - Energy Exascale Earth System Model: Software and Algorithms for Exascale Subproject. https://e3sm.org/about/organization/phase-2/ngd-sub-projects/ 
