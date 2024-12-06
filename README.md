@@ -16,30 +16,30 @@ A box model driver for the Modal Aerosol Module (Liu et al., 2012; Liu et al., 2
 
 ### v1.0 - Original version by Richcard C. Easter
 
-    - initial development  
-    - same module/data structure as in E3SM
+    - Initial development  
+    - Same module/data structure as in E3SM
     - MAM code is the same as in E3SM version 1
-    - output in ascii text
+    - Output in ascii text
 
 ### v1.1 - Improved I/O and namelist control 
 
-    - convergence test development
-    - netcdf output 
-    - namelist control to switch on/off individual processes 
+    - Convergence test development
+    - NetCDF output 
+    - Namelist control to switch on/off individual processes 
 
 ### v1.2 - Current version 
 
-    - single box setup 
-    - namelist control for meteorological/initial condition 
-    - test case for wateruptake verification using bisection
+    - Single box setup 
+    - Namelist control for meteorological/initial condition 
+    - Test case for wateruptake verification using bisection
 
 ### Version under development/testing
 
-    - use GCM netcdf output as input data 
+    - Use GCM netcdf output as input data 
     - Example data for selected ARM sites 
-    - precision control 
-    - test configurations 
-    - control for sulfur chemistry setup 
+    - Precision control 
+    - Test configurations 
+    - Control for sulfur chemistry setup 
 
 ## Documentation 
 
