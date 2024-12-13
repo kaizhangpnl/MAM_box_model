@@ -13,7 +13,7 @@ The MAM aerosol box model driver offers a convenient tool for new aerosol modele
 - MAM aerosol code is the same as used in E3SMv1 (same module/data structure)
 - Single-box or multi-box model configuration using data structure applied in the atmosphere component of E3SM/CESM
 - Namelist control for meteorological state and initial condition of aerosol/gas concentrations 
-- Namelist control for stwiching on/off individual microphysical processes  
+- Namelist control for switching on/off individual microphysical processes  
 - Improved I/O (now netCDF) and post-processing workflow 
 
 ### Upcoming features 
