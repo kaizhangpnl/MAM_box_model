@@ -6,6 +6,14 @@ The Modal Aerosol Module (MAM, Liu et al., 2012; Liu et al., 2016) in the Energy
 
 The MAM aerosol box model driver offers a convenient tool for new aerosol modelers to learn and test different aerosol microphysics parameterizations. It is also well-suited to support aerosol microphysics model intercomparison studies and machine learning applications (such as training data generation) aimed at enhancing global aerosol models.
 
+## Description 
+
+```
+e3sm_src:         files that are the same as MAM4 used in E3SMv1 
+e3sm_modified:    modified MAM4 code used in E3SMv1
+box_model_utils:  utility code for box model
+test_drivers:     example test drivers 
+```
 
 ## Developers: 
 
