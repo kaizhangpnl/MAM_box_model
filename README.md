@@ -20,7 +20,7 @@ The MAM aerosol box model driver offers a convenient tool for new aerosol modele
 
 ### Flowchart 
 
-<img width="400" alt="image" src="https://github.com/kaizhangpnl/MAM_box_model/blob/main/figures/flowchart.png" />
+<img width="800" alt="image" src="https://github.com/kaizhangpnl/MAM_box_model/blob/main/figures/flowchart.png" />
 
 Figure 1. Left: Flowchart showing the sequence of calculation (i.e., the time integration loop) in the E3SM atmosphere model. Colored boxes indicate aerosol parameterizations. Right: Diagram showing the process coupling (overall sequential splitting) in the MAM box aerosol model.
 
