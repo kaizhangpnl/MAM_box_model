@@ -18,7 +18,14 @@ The MAM aerosol box model driver offers a convenient tool for new aerosol modele
 - Various drivers now available for testing individual processes in isolation or in combination
 - Improved I/O (now netCDF) and post-processing workflow 
 
-### Code structure 
+### Flowchart 
+
+<img width="131" alt="image" src="https://github.com/user-attachments/assets/54963e7d-2c26-499b-a361-4730b8e06021" />
+
+Figure 1. Left: Flowchart showing the sequence of calculation (i.e., the time integration loop) in the E3SM atmosphere model. Colored boxes indicate aerosol parameterizations. Right: Diagram showing the process coupling (overall sequential splitting) in the MAM box aerosol model.
+
+
+### Code  
 
 ```
 e3sm_src:         files that are the same as MAM4 used in E3SMv1 
